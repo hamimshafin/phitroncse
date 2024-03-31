@@ -3,9 +3,11 @@
 int main()
 {
     int a, b;
-    scanf("%d%d", &a,&b);
+    char c;
+    float d;
+    scanf("%d%d %c %f", &a,&b,&c,&d);
     printf("Hello World\n");
-    printf("number: %d, %d", a,b);
+    printf("number: %d %d %c %0.1f", a,b,c,d);
 
     return 0;
 }
